@@ -2,7 +2,7 @@ from pathlib import Path
 from textsummarizer.logging import logger
 from ensure import ensure_annotations
 from box import ConfigBox
-from box.exception import BoxValueError
+from box.exceptions import BoxValueError
 import yaml
 import os
 from typing import Any
